@@ -1,3 +1,10 @@
+"""
+Velodyne VLP-32C激光雷达通信及数据解析程序
+主要用来测试雷达的距离精度
+author: yunshuixin
+@2018.10
+"""
+
 import socket
 import math
 import time
@@ -139,6 +146,7 @@ for i in range(12):
         print("channel %d azimuth:%f, channel %d distance:%f" % (
             j, d_p[i]['channel %d' % j][0], j, d_p[i]['channel %d' % j][1]))
 """
+
 with open(s_name, 'a') as f:
     f.write("time, Azimuth, channel 5 distance, channel5 X, channel5 Y, channel5 Z, error\n")
     f.close()

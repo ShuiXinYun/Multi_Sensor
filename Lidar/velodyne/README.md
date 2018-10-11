@@ -4,14 +4,14 @@
 
 结果：
 
-+ <img src="./results/1m.jpeg" width="750" height="380" align=center />
++ <img src="./results/1m.jpeg" align=center />
 
-+ <img src="./results/2m.jpeg" width="750" height="380" align=center />
++ <img src="./results/2m.jpeg" align=center />
 
-+ <img src="./results/3m.jpeg" width="750" height="380" align=center />
++ <img src="./results/3m.jpeg" align=center />
 
-+ <img src="./results/4m.jpeg" width="750" height="380" align=center />
++ <img src="./results/4m.jpeg" align=center />
 
-+ <img src="./results/5m.jpeg" width="750" height="380" align=center />
++ <img src="./results/5m.jpeg" align=center />
 
-+ <img src="./results/6m.jpeg" width="750" height="380" align=center />
++ <img src="./results/6m.jpeg" align=center />

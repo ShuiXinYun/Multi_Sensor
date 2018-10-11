@@ -1,7 +1,7 @@
 """
 Velodyne VLP-32C激光雷达通信及数据解析程序
 主要用来测试雷达的距离精度
-author: yunshuixin
+author: 云水心
 @2018.10
 """
 
@@ -183,5 +183,4 @@ while True:
             f.close()
             print(time_elapse, "Azimuth:", li1[i][0], "channel 5 distance", li1[i][1], "channel 5 XYZ",
                   get_xyz(5, li1[i][1], li1[i][0]))
-    # sleep(1)
-    # print("delta_Azimuth:%f" % (li1[11][0] - li1[10][0]))  # 5hz:0.09、0.1、0.11, 10hz:0.18、0.19、0.2
+    # print("delta_Azimuth:%f" % (li1[11][0] - li1[10][0]))  # 5hz:0.09、0.1、0.11, 10hz:0.18、0.19、0.2 ！！！有跳动
